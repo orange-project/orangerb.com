@@ -1,0 +1,5 @@
+source "http://rubygems.org"
+gem "openid_dm_store", :git => "git://github.com/therabidbanana/openid_dm_store.git"
+gem "orange"
+gem "orange-core"
+gem "dm-mysql-adapter"

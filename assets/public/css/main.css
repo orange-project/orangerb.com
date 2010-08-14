@@ -1,0 +1,179 @@
+/* @override 
+	http://www.orangerb.com/assets/public/css/main.css
+	http://localhost:9292/assets/public/css/main.css
+*/
+
+body{
+	font-size: 100%;
+	background: url(/assets/public/images/pattern_9.png) repeat; /*2,3, 5,7*/
+	padding: 3.3em 0;
+}
+
+header, article, section, footer{
+	display: block;
+}
+
+a{
+  color: #dd7200;
+}
+
+header.head .logo{
+	padding: 2em 0 1.2em;
+}
+
+header.head .logo h1 {
+	font: 1px 'ChunkFiveRegular', Arial, sans-serif;
+	color: #444;
+	width: 100%;
+	height: 160px;
+	background: transparent url(/assets/public/images/orange-header.png) center center no-repeat;
+	text-align: center;
+	margin: 0;
+	text-shadow: #aaa -1px -1px 1px;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.75)));
+}
+
+header.head nav{
+	margin: 0 0 1em;
+	text-align: center;
+}
+
+header.head nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0.3em 0;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+header.head nav ul li{
+	display: inline;
+	margin: 0 1em;
+	padding: 0;
+}
+
+header.head nav a{
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+header.head nav a:link{
+	border-bottom: none;
+}
+
+header.head nav a:hover{
+	border-bottom: 0.3em solid;
+}
+
+
+body .container{
+	width: 75%;
+	min-width: 700px;
+	max-width: 960px;
+	background-color: #444;
+	border-radius: 1em;
+	-moz-border-radius: 1em; 
+	-webkit-border-radius: 1em;
+	margin: 0 auto;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+body .container .gist{
+	width: 85%;
+	margin: 0 auto;
+}
+body .container .gist-file{
+	font-size: 0.9em;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em; 
+	-webkit-border-radius: 0.5em;
+}
+
+body .container .body{
+	background: white;
+	color: #444;
+	margin-bottom: 1em;
+	padding-bottom: 1.1em;
+	border-radius: 1em;
+	-moz-border-radius: 1em; 
+	-webkit-border-radius: 1em;
+	box-shadow: 0px 1px 3px #666;
+	-moz-box-shadow: 0px 1px 3px #666;
+	-webkit-box-shadow: 0px 1px 3px #666;
+}
+
+body .container .body .content{
+	color: #444;
+	padding: 2em 1.5em 1em;
+	margin-bottom: 1em;
+}
+
+body .body h1{
+	color: #666;
+	font-size: 1.8em;
+	border-bottom: 1px solid #bbb;
+}
+
+body .body .content>pre{
+	padding: 1em 1em 0.1em;
+	margin: 1em 3em;
+	font: 0.9em "Courier New", Courier, mono;
+	background-color: #666;
+	color: white;
+	border-radius: 1em;
+	-moz-border-radius: 1em; 
+	-webkit-border-radius: 1em;
+	border: 0.4em solid #aaa;
+}
+
+body .body blockquote{
+	padding: 1em 1em 0.1em;
+	margin: 1em 3em;
+	font: italic 0.9em Georgia, "Times New Roman", Times, serif;
+}
+
+body .body p{
+	margin: 0 1em 1em;
+}
+
+blockquote p, .body .content>pre code{
+	display: block;
+	margin: 0 0 1.1em;
+}
+
+.body footer.footer{
+	background: #fff url(/assets/public/images/footer_short.png) top center no-repeat;
+	color: white;
+	position: relative;
+	min-height: 130px;
+	text-align: right;
+	padding: 0 1em;
+}
+
+.body footer.footer .credits{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+}
+
+.body footer.footer .pledgie{
+  position: absolute;
+	bottom: 2em;
+	left: 3em;
+}
+
+.body footer.footer a.logo{
+	background: url(/assets/public/images/osb_light_transparent.png);
+	color: #ff7e0e;
+	font-size: 1px;
+	display: block;
+	overflow: hidden;
+	height: 71px;
+	width: 330px;
+	text-decoration: none;
+	text-indent: -1000px;
+}
+
+
+
